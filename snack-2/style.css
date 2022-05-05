@@ -1,0 +1,61 @@
+/*---------------------
+    RESET
+---------------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------
+    COMMON
+---------------------*/
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: lightgrey;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#dispari{
+    width: 200px;
+    height: 200px;
+    margin: auto 10px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#pari{
+    width: 200px;
+    height: 200px;
+    margin: auto 10px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    color: green;
+}
+
+.red{
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    color: red;
+}
