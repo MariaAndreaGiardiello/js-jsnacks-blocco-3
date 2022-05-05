@@ -5,13 +5,18 @@
 const N = Number(prompt("Inserisci un numero"));
 console.log(N);
 
-// 2. generazione numeri casuali da 1 a 100.
-let random = Number(Math.floor(Math.random()*101));
-console.log(random)
-
-// 3. creo array per contenere 10 numeri casuali
-const randomNumbers = [];
-for (let i = random; randomNumbers.lenght <= 10; i++ ) {
-    randomNumbers.push(random)
-}
-console.log(randomNumbers)
+// 2. creo variabile per conteggio nel ciclo
+let n = 0
+// 3. strutturato ciclo
+do {
+    // 4. creato matrice vuota per inserimento numeri
+    const array = [];
+    console.log(array)
+    // 5. creato ciclo for per ripetizione del numero all'interno dell'array 10 volte
+    for ( i = 0; i < 10; i++){
+        // 6. aggiunta numero casuale da 1 a 100
+        array.push(Number(Math.floor(Math.random()*101)));
+    }
+    n++;
+    console.log(array);
+} while (n < N) // 7. ripetizione ciclo fino a raggiungimento numero inserito dall'utente.
